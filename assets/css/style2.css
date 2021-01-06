@@ -194,9 +194,6 @@ body {
     
 }
 
-.slideItem:nth-child(1){
-    background-position-y: -133px;
-}
 
 
 
@@ -427,6 +424,7 @@ position: relative
      text-shadow: 3px 3px 3px gray;
     position: absolute;
     top: 52%;
+    left: -1%
 }
 @media (max-width: 600px) {
   .slideContainer .slideTitle {
@@ -471,13 +469,7 @@ position: relative
     font-size: 1rem;
   }
 }
-.slideContainer .slideAction {
-  color: white;
-  cursor: pointer;
-  text-decoration: underline;
-     text-shadow: 3px 3px 3px gray;
-     left: -1%
-}
+
 
 
 

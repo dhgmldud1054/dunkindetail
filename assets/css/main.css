@@ -118,7 +118,8 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: #f56d23;
+            
 		}
 
 	strong, b {
@@ -2852,21 +2853,24 @@ input, select, textarea {
 
 /* Main */
 
-	.main {
-		padding: 6em 0 4em 0 ;
-	}
+.main {
+    padding: 5em 0 3em 0;
+}
 
 		.main.style1 {
 		background: #fff;
-          padding: 4em 0 4em 0;
+          padding: 4em 0 5em 0;
             
 		}
+
+
+#one{padding-top: 3em}
 
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #f56d23 5%, #f56d23 30%, #fff);
 			background-size: auto,							cover;
 		}
 
@@ -2957,7 +2961,7 @@ input, select, textarea {
 
 
 	#header {
-		padding: 9em 0 11em 0 ;
+		padding: 13em 0 11em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3125,7 +3129,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(45deg, #f56d23 5%, #f56d23 30%, #fff);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3162,7 +3166,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #f56d23 5%, #f56d23 30%, #fff);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;

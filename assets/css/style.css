@@ -11,9 +11,7 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
-.full-height{
-  min-height: 100vh;
-}
+
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
@@ -166,7 +164,6 @@
   	filter: brightness(100%);
 	transition: all 250ms linear;
 }
-
 
 
 

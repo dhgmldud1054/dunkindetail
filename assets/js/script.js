@@ -15,34 +15,34 @@ const rooms = [
   id: 0,
   name: "Dunkin Donut",
   alt: "Modern Living Room",
-  description: "A “store in style” kind of living room",
+  description: "오늘도 행복하세요!",
   src:
   "img1-1.png",
   itemIds: [11, 12, 13, 14, 15] },
 
 {
   id: 1,
-  name: "Traditional",
-  alt: "Traditional Living Room",
-  description: "Me and my multigenerational home",
+ name: "Dunkin Donut",
+  alt: "Modern Living Room",
+  description: "오늘도 행복하세요!",
   src:
   "img2-1.png",
   itemIds: [21, 22, 23, 24, 25] },
 
 {
   id: 2,
-  name: "Detail",
+ 
   alt: "A living room with a designer's touch",
-  description: "A living room with a designer's touch",
+  
   src:
   "img3-1.png",
   itemIds: [31, 32, 33, 34, 35] },
     
     {
   id: 3,
-  name: "Unique",
+ 
   alt: "A living room with a designer's touch",
-  description: "A living room with a designer's touch",
+  
   src:
   "img3-1.png",
   itemIds: [31, 32, 33, 34, 35] }
@@ -976,7 +976,7 @@ const Slide = ({ children, store, slide, ...props }) => {
     React.createElement("div", { className: "slideDescription", ref: descriptionRef },
     slides[slide].props.description),
 
-    React.createElement("div", { className: "slideAction", ref: actionRef, onClick: viewItems }, "Shop This Room"))));
+    React.createElement("div", { className: "slideAction", ref: actionRef, onClick: viewItems }, ""))));
 
 
 
