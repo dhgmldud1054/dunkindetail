@@ -36,15 +36,6 @@ const rooms = [
   
   src:
   "img3-1.png",
-  itemIds: [31, 32, 33, 34, 35] },
-    
-    {
-  id: 3,
- 
-  alt: "A living room with a designer's touch",
-  
-  src:
-  "img3-1.png",
   itemIds: [31, 32, 33, 34, 35] }
 
 
