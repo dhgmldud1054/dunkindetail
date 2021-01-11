@@ -477,3 +477,13 @@ position: relative
     top: 33%;left: -1%;}
 .slideNumber span:nth-child(2){position: absolute;
     top: 33%;}
+
+
+
+@media(max-width: 980px){
+    .slideNumberVariable{left: -2.5%}
+    .slideContainer .slideTitle, .slideContainer .slideDescription{display: none}
+}
+
+
+
